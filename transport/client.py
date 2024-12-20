@@ -1,4 +1,3 @@
-
 class Client:
     def __init__(self, name, cargo_weight, is_vip=False):
         if name:
