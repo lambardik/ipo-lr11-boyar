@@ -271,8 +271,7 @@ def show_about():
        
         dpg.add_text("Лабораторная работа номер 12")
         dpg.add_text("Вариант: 3")
-        dpg.add_text("Разработчик: Бояр Даниил")
-        dpg.add_text("Группа: 82 ТП")
+        dpg.add_text("Разработчик: Бояр Даниил Геннадьевич")
         dpg.add_button(label="Закрыть", callback=lambda: dpg.delete_item("about_window"))
 
 def setup_fonts():
